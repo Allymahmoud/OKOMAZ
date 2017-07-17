@@ -298,7 +298,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89l-bK-nqM">
                                 <rect key="frame" x="29" y="183" width="317" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.96302271829999997" blue="0.1655122835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Configure Account as Household Member"/>
+                                <state key="normal" title="Configure Account Main Household Contact"/>
                                 <connections>
                                     <action selector="configureAccountasMain:" destination="LO2-LZ-SJ4" eventType="touchUpInside" id="DTZ-U1-6I7"/>
                                 </connections>
@@ -392,6 +392,13 @@
                         <outlet property="PickupInfoTextField" destination="n3n-UQ-pIx" id="Rlp-ff-CY5"/>
                         <outlet property="Region" destination="UXD-zP-Yob" id="aJY-qg-MyR"/>
                         <outlet property="Role" destination="PE7-Ic-F9K" id="mXC-bx-b8X"/>
+                        <outlet property="StaticCountryField" destination="oa6-hU-GQm" id="5Ux-H1-QN0"/>
+                        <outlet property="StaticHouseField" destination="0Pf-md-79h" id="FlK-kf-etD"/>
+                        <outlet property="StaticNextPickupField" destination="df0-ZP-tgE" id="YJT-Hx-5wg"/>
+                        <outlet property="StaticRegionField" destination="VWH-Xj-NYJ" id="COD-ja-3qv"/>
+                        <outlet property="StaticRole" destination="QSP-jT-QVE" id="jRu-NN-RRE"/>
+                        <outlet property="StaticStreet" destination="Uov-vA-LgZ" id="bdr-Qn-s4K"/>
+                        <outlet property="StaticStreetField" destination="LJV-Fx-4LX" id="LCD-k6-P8x"/>
                         <outlet property="Street" destination="uNI-c0-vqI" id="Wk3-aN-Odb"/>
                         <outlet property="accountEditButton" destination="fI4-AK-Y3e" id="6iO-LR-J4E"/>
                         <outlet property="addressTextField" destination="ENs-hB-SsH" id="Fja-au-pRc"/>

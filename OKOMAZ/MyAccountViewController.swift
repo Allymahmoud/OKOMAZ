@@ -44,6 +44,23 @@ class MyAccountViewController: UIViewController {
     
     @IBOutlet weak var configureAccountMember: UIButton!
     
+    @IBOutlet weak var StaticStreet: UILabel!
+    
+    @IBOutlet weak var StaticHouseField: UILabel!
+    
+    @IBOutlet weak var StaticStreetField: UILabel!
+    
+    @IBOutlet weak var StaticRegionField: UILabel!
+    
+   
+    @IBOutlet weak var StaticCountryField: UILabel!
+    
+    @IBOutlet weak var StaticNextPickupField: UILabel!
+    
+    
+    @IBOutlet weak var StaticRole: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -257,6 +274,15 @@ class MyAccountViewController: UIViewController {
             self.configureAccountMain.isEnabled = true
             self.configureAccountMember.isHidden = false
             self.configureAccountMember.isEnabled = true
+            
+            
+            self.StaticRole.isHidden = disable
+            self.StaticStreet.isHidden = disable
+            self.StaticHouseField.isHidden = disable
+            self.StaticRegionField.isHidden = disable
+            self.StaticNextPickupField.isHidden = disable
+            self.StaticRole.isHidden = disable
+            self.StaticCountryField.isHidden = disable
             
             
         
