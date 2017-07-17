@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05A3F631F18CDFF00A76DEF /* mainConfigureAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A3F621F18CDFF00A76DEF /* mainConfigureAccountViewController.swift */; };
+		A05A3F651F18CE1400A76DEF /* memberConfigureAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A3F641F18CE1400A76DEF /* memberConfigureAccountViewController.swift */; };
 		A083CF9D1F13D1BA007AEFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF9C1F13D1BA007AEFBC /* AppDelegate.swift */; };
-		A083CF9F1F13D1BA007AEFBC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF9E1F13D1BA007AEFBC /* FirstViewController.swift */; };
+		A083CF9F1F13D1BA007AEFBC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF9E1F13D1BA007AEFBC /* AuthenticationViewController.swift */; };
 		A083CFA11F13D1BA007AEFBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CFA01F13D1BA007AEFBC /* SecondViewController.swift */; };
 		A083CFA41F13D1BA007AEFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A083CFA21F13D1BA007AEFBC /* Main.storyboard */; };
 		A083CFA61F13D1BA007AEFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A083CFA51F13D1BA007AEFBC /* Assets.xcassets */; };
 		A083CFA91F13D1BA007AEFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A083CFA71F13D1BA007AEFBC /* LaunchScreen.storyboard */; };
+		A083CFB11F14FD9C007AEFBC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CFB01F14FD9C007AEFBC /* Client.swift */; };
+		A083CFBD1F154A30007AEFBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CFBC1F154A30007AEFBC /* LoginViewController.swift */; };
+		A083CFBF1F1593DC007AEFBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A083CFBE1F1593DC007AEFBC /* GoogleService-Info.plist */; };
+		A083CFC11F1597E0007AEFBC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CFC01F1597E0007AEFBC /* SignUpViewController.swift */; };
+		A083CFC31F1597F9007AEFBC /* PhoneVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CFC21F1597F9007AEFBC /* PhoneVerificationViewController.swift */; };
+		A088159E1F16760300681E20 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A088159D1F16760300681E20 /* MyAccountViewController.swift */; };
+		A08815A01F17AB2C00681E20 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A088159F1F17AB2C00681E20 /* ServicesTableViewController.swift */; };
+		A08815A21F17B56500681E20 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08815A11F17B56500681E20 /* ServiceTableViewCell.swift */; };
+		B4CF12020AB1457159450001 /* Pods_OKOMAZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512462C95D416C983F35B95E /* Pods_OKOMAZ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38F612F34656427AEF5B7900 /* Pods-OKOMAZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKOMAZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKOMAZ/Pods-OKOMAZ.debug.xcconfig"; sourceTree = "<group>"; };
+		512462C95D416C983F35B95E /* Pods_OKOMAZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKOMAZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05A3F621F18CDFF00A76DEF /* mainConfigureAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainConfigureAccountViewController.swift; sourceTree = "<group>"; };
+		A05A3F641F18CE1400A76DEF /* memberConfigureAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memberConfigureAccountViewController.swift; sourceTree = "<group>"; };
 		A083CF991F13D1BA007AEFBC /* OKOMAZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OKOMAZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A083CF9C1F13D1BA007AEFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A083CF9E1F13D1BA007AEFBC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A083CF9E1F13D1BA007AEFBC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		A083CFA01F13D1BA007AEFBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A083CFA31F13D1BA007AEFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A083CFA51F13D1BA007AEFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A083CFA81F13D1BA007AEFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A083CFAA1F13D1BA007AEFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A083CFB01F14FD9C007AEFBC /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		A083CFBC1F154A30007AEFBC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A083CFBE1F1593DC007AEFBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A083CFC01F1597E0007AEFBC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A083CFC21F1597F9007AEFBC /* PhoneVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneVerificationViewController.swift; sourceTree = "<group>"; };
+		A088159D1F16760300681E20 /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		A088159F1F17AB2C00681E20 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		A08815A11F17B56500681E20 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		EABE875A61804376FF9330A3 /* Pods-OKOMAZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKOMAZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKOMAZ/Pods-OKOMAZ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CF12020AB1457159450001 /* Pods_OKOMAZ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5493F913B78FE0864D9C4CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512462C95D416C983F35B95E /* Pods_OKOMAZ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D0FFA50B48325FF4503D21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38F612F34656427AEF5B7900 /* Pods-OKOMAZ.debug.xcconfig */,
+				EABE875A61804376FF9330A3 /* Pods-OKOMAZ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A083CF901F13D1B9007AEFBC = {
 			isa = PBXGroup;
 			children = (
 				A083CF9B1F13D1BA007AEFBC /* OKOMAZ */,
 				A083CF9A1F13D1BA007AEFBC /* Products */,
+				7D0FFA50B48325FF4503D21F /* Pods */,
+				5493F913B78FE0864D9C4CD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +101,22 @@
 			isa = PBXGroup;
 			children = (
 				A083CF9C1F13D1BA007AEFBC /* AppDelegate.swift */,
-				A083CF9E1F13D1BA007AEFBC /* FirstViewController.swift */,
+				A083CF9E1F13D1BA007AEFBC /* AuthenticationViewController.swift */,
 				A083CFA01F13D1BA007AEFBC /* SecondViewController.swift */,
 				A083CFA21F13D1BA007AEFBC /* Main.storyboard */,
+				A05A3F621F18CDFF00A76DEF /* mainConfigureAccountViewController.swift */,
+				A05A3F641F18CE1400A76DEF /* memberConfigureAccountViewController.swift */,
+				A08815A11F17B56500681E20 /* ServiceTableViewCell.swift */,
+				A088159D1F16760300681E20 /* MyAccountViewController.swift */,
+				A083CFBC1F154A30007AEFBC /* LoginViewController.swift */,
 				A083CFA51F13D1BA007AEFBC /* Assets.xcassets */,
+				A088159F1F17AB2C00681E20 /* ServicesTableViewController.swift */,
+				A083CFB01F14FD9C007AEFBC /* Client.swift */,
 				A083CFA71F13D1BA007AEFBC /* LaunchScreen.storyboard */,
 				A083CFAA1F13D1BA007AEFBC /* Info.plist */,
+				A083CFBE1F1593DC007AEFBC /* GoogleService-Info.plist */,
+				A083CFC01F1597E0007AEFBC /* SignUpViewController.swift */,
+				A083CFC21F1597F9007AEFBC /* PhoneVerificationViewController.swift */,
 			);
 			path = OKOMAZ;
 			sourceTree = "<group>";
@@ -74,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A083CFAD1F13D1BA007AEFBC /* Build configuration list for PBXNativeTarget "OKOMAZ" */;
 			buildPhases = (
+				4919374F10207F08618FD8E7 /* [CP] Check Pods Manifest.lock */,
 				A083CF951F13D1BA007AEFBC /* Sources */,
 				A083CF961F13D1BA007AEFBC /* Frameworks */,
 				A083CF971F13D1BA007AEFBC /* Resources */,
+				DDFE487E26FDC82256814F16 /* [CP] Embed Pods Frameworks */,
+				CF4FD253A49B433C01F313B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A083CFA91F13D1BA007AEFBC /* LaunchScreen.storyboard in Resources */,
+				A083CFBF1F1593DC007AEFBC /* GoogleService-Info.plist in Resources */,
 				A083CFA61F13D1BA007AEFBC /* Assets.xcassets in Resources */,
 				A083CFA41F13D1BA007AEFBC /* Main.storyboard in Resources */,
 			);
@@ -135,14 +193,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4919374F10207F08618FD8E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4FD253A49B433C01F313B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKOMAZ/Pods-OKOMAZ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFE487E26FDC82256814F16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKOMAZ/Pods-OKOMAZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A083CF951F13D1BA007AEFBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A083CFC11F1597E0007AEFBC /* SignUpViewController.swift in Sources */,
+				A083CFC31F1597F9007AEFBC /* PhoneVerificationViewController.swift in Sources */,
+				A088159E1F16760300681E20 /* MyAccountViewController.swift in Sources */,
 				A083CFA11F13D1BA007AEFBC /* SecondViewController.swift in Sources */,
 				A083CF9D1F13D1BA007AEFBC /* AppDelegate.swift in Sources */,
-				A083CF9F1F13D1BA007AEFBC /* FirstViewController.swift in Sources */,
+				A083CFB11F14FD9C007AEFBC /* Client.swift in Sources */,
+				A083CFBD1F154A30007AEFBC /* LoginViewController.swift in Sources */,
+				A05A3F651F18CE1400A76DEF /* memberConfigureAccountViewController.swift in Sources */,
+				A08815A21F17B56500681E20 /* ServiceTableViewCell.swift in Sources */,
+				A08815A01F17AB2C00681E20 /* ServicesTableViewController.swift in Sources */,
+				A083CF9F1F13D1BA007AEFBC /* AuthenticationViewController.swift in Sources */,
+				A05A3F631F18CDFF00A76DEF /* mainConfigureAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +380,7 @@
 		};
 		A083CFAE1F13D1BA007AEFBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F612F34656427AEF5B7900 /* Pods-OKOMAZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FM2EY39XWE;
@@ -278,6 +394,7 @@
 		};
 		A083CFAF1F13D1BA007AEFBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABE875A61804376FF9330A3 /* Pods-OKOMAZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FM2EY39XWE;
@@ -308,6 +425,7 @@
 				A083CFAF1F13D1BA007AEFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
